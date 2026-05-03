@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste de Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content-container">
+        <h2>Conversor de Moedas</h2>
+        <input type="text" id="valor" placeholder="Digite o valor em R$">
+        <select id="moedas">
+            <option value="#">Selecione a moeda</option>
+            <option value="euro">¢ Euro</option>
+            <option value="dolar">$ Dollar</option>
+        </select>
+        <button onclick="executarTestes(); converter();">Enviar</button>
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

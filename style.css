@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e9f0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px; 
+    padding: 40px;
+    width: 100%;
+    max-width: 400px; 
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.content-container h2 {
+    color: #2660A4;
+    margin-bottom: 10px;
+}
+
+.content-container input, 
+.content-container select {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.content-container input:focus, 
+.content-container select:focus {
+    border-color: #2660A4;
+}
+
+.content-container button {
+    padding: 15px;
+    background-color: #2660A4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.content-container button:hover {
+    background-color: #1d4b82;
+}
+
+.content-container button:active {
+    transform: scale(0.98);
+}
+
+#mensagem {
+    margin-top: 10px;
+    color: #333;
+    font-size: 18px;
+    min-height: 24px; 
+}
